@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Ps2NWXaCuLeRZSjZhPNUEFCIree5F9LCSzcUapMCGDVxoCC+Qp8Dt+zzZoy7yM0Asn3pw4gHYZnjgOrr9krPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Predator\\Desktop\\Library System\\SingUp\\SingUp\\SingUp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Predator\\.nuget\\packages\\materialdesigncolors\\3.0.0\\materialdesigncolors.3.0.0.nupkg.sha512",
+    "C:\\Users\\Predator\\.nuget\\packages\\materialdesignthemes\\5.0.0\\materialdesignthemes.5.0.0.nupkg.sha512",
+    "C:\\Users\\Predator\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}

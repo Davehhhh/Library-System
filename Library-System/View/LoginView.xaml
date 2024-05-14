@@ -40,11 +40,11 @@
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0"
                              EndPoint="1,1">
-                    <GradientStop Color="#462ad8"
+                    <GradientStop Color="#E6A4B4"
                           Offset="0"/>
-                    <GradientStop Color="#da34ae"
+                    <GradientStop Color="#FFF8E3"
                           Offset="0.75"/>
-                    <GradientStop Color="#462ad8"
+                    <GradientStop Color="#E6A4B4"
                           Offset="1"/>
                 </LinearGradientBrush>
             </Border.BorderBrush>
@@ -52,9 +52,9 @@
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,1"
                              EndPoint="1,0">
-                    <GradientStop Color="#060531"
+                    <GradientStop Color="#FFF8E3"
                           Offset="0"/>
-                    <GradientStop Color="#1b1448"
+                    <GradientStop Color="#FFF8E3"
                           Offset="0.75"/>
                 </LinearGradientBrush>
             </Border.Background>
@@ -67,7 +67,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Border Grid.Column="0"
-                        Background="#060531"
+                        Background="#F5EEE6"
                         CornerRadius="10 0 0 10"
                         ClipToBounds="True">
 
@@ -83,19 +83,19 @@
                         <TextBlock FontSize=" 35"
                                    FontWeight="Bold"
                                    Text="Welcome to Readify"
-                                   Foreground="#da34ae"
+                                   Foreground="#E6A4B4"
                                    TextAlignment="Center"/>
                         <TextBlock FontSize="18"
                                    FontWeight="SemiBold"
-                                   Foreground="#da34ae"
+                                   Foreground="#E6A4B4"
                                    TextAlignment="Center"
                                    Text="Your Literary Adventure Begins Here!"/>
 
                         <TextBlock FontSize="15"
-                                   FontWeight="Light"
+                                   FontWeight="Bold"
                                    
                                    Text="Discover a world of literature at your fingertips with Readify. Dive into a treasure trove of books, articles, and resources from the comfort of your own device."
-                                   Foreground="#da34ae"
+                                   Foreground="#E6A4B4"
                                    Margin="50 60 50 0" 
                                    Height="131" Width="299"
                                    TextWrapping="Wrap"
@@ -141,24 +141,24 @@
                                     VerticalAlignment="Center"
                                     Margin=" 75 0">
                             <TextBlock Text="Username"
-                                       Foreground="#da34ae"
+                                       Foreground="#E6A4B4"
                                        FontSize="20"
                                        FontWeight="Medium"
                                        FontFamily="Monteserrat"
                                        />
                             <TextBox x:Name="txtUser"
                                      Text="{Binding UserName}"
-                                     BorderBrush="#da34ae"
+                                     BorderBrush="#E6A4B4"
                                      BorderThickness="0,0,0,2"
                                      Background="Transparent"
-                                     Foreground="#da34ae"
-                                     CaretBrush="LightGray"
+                                     Foreground="#E6A4B4"
+                                     CaretBrush="#E6A4B4"
                                      Height="28"
                                      VerticalContentAlignment="Center"
                                      Margin="0,5,0,5" 
                                      />
                             <TextBlock Text="Password"
-                                       Foreground="#da34ae"
+                                       Foreground="#E6A4B4"
                                        FontSize="20"
                                        FontWeight="Medium"
                                        FontFamily="Monteserrat"
@@ -175,32 +175,33 @@
                                         Margin="0 10 0 0">
                                         
                                 <TextBlock Text="Forgot Password ?  "
-                                           Foreground="#da34ae"
+                                           Foreground="#E6A4B4"
                                            Margin="50 0 0 0"
                                            HorizontalAlignment="Center"
                                            VerticalAlignment="center"/>
                                 <TextBlock Text="Reset"
-                                           Foreground="#da34ae"
+                                           Foreground="#E6A4B4"
                                            HorizontalAlignment="Center"
 VerticalAlignment="center"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal"
                                         Height="40"
                                         >
-                                <Button Background="#da34ae"
+                                <Button Background="#F5EEE6"
                                         Content="Sign Up"
+                                        Foreground="#E6A4B4"
                                         Width="165"
                                         FontWeight="DemiBold"
-                                        BorderBrush="#1b1448"
-                                        BorderThickness="2"
-                                        
+                                        BorderBrush="#E6A4B4"
+                                        BorderThickness="1"
                                         materialDesign:ButtonAssist.CornerRadius="15"/>
-                                <Button Background="#da34ae"
+                                <Button Background="#F5EEE6"
                                           Content="Login"
+                                          Foreground="#E6A4B4"
                                           Width="165"
                                           FontWeight="DemiBold"
-                                          BorderBrush="#1b1448"
-                                          BorderThickness="2"/>   
+                                          BorderBrush="#E6A4B4"
+                                          BorderThickness="1"/>   
                             </StackPanel>
                         </StackPanel>
                     </Grid>
